@@ -4,7 +4,7 @@
       "name": "windows-gcc-x64",
       "includePath": [
         "${workspaceFolder}/**",
-        // "D:\\testCmake\\pro2\\build\\install\\include",
+        "D:/testVscodeCmake/**",
         "${workspaceFolder}/include/**"
       ],
       "compilerPath": "D:\\SLAM_LYJ\\mingw64\\bin\\gcc.exe",

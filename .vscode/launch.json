@@ -19,12 +19,12 @@
           "ignoreFailures": true
         }
       ],
-      // "environment": [
-      //   {
-      //     "name": "PATH",
-      //     "value": "D:\\testCmake\\pro2\\build\\install\\bin;${env:PATH}"
-      //   }
-      // ],
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "D:\\testVscodeCmake\\build;${env:PATH}"
+        }
+      ],
       "preLaunchTask": "build c++"
     }
   ]

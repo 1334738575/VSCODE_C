@@ -1,5 +1,5 @@
 #include <iostream>
-#include "test.h"
+#include <VscodeCmakeInclude.h>
 #include "testVscode.h"
 
 int main(int argc, char *argv[])
@@ -7,7 +7,8 @@ int main(int argc, char *argv[])
     using namespace VSCODE_NSP;
     std::cout << "hello vscode !" << std::endl;
     testVscode();
-    // SLAM_LYJ_CUDA::test1();
+    VscodeCmakeOption opt;
+    func1(opt);
     // std::cin.ignore();
     return 0;
 }
